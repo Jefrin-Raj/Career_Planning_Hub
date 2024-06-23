@@ -1,0 +1,94 @@
+{"intents":
+[
+            {
+             "tag":"Greetings",
+             "patterns": ["Hi", "Hello", "Hey"],
+             "responses":["Hello! How can I assist you today?","Hey there! What can I do to help you today?","Hi! What can I assist you with at the moment?"]
+            },
+            {
+             "tag":"NextSteps",
+             "patterns":["Finished 10th grade. What's next?","Completed 10th. Next move?","10th pass"],
+             "responses":["Congrats! For the Best Consider 11th grade.Or else if you wish to try government exams then surely go on. Or else you can even try diplomas which will be the base for Engineering."]
+            },
+            {
+             "tag":"ClassSelection",
+             "patterns":["11th grade"],
+             "responses":["<br>1.Group I - Physics, Chemistry, Maths and Computer science<br>2.Group II - Physics, Chemistry, Maths and Biology<br>3.Group III - Physics, Chemistry, Computer and Biology<br>4.Group IV - Physics, Chemistry, Botany and Zoology<br>5.Group V - Economics, Commerce, Accountancy and Computer science."]
+            },
+            {
+             "tag":"GovernmentJobOptions",
+             "patterns":["government exams"],
+             "responses":[" consider<br>1. Indian Army: AFCAT, CAPF, CDS<br>2. Navy: NDA & NA Exam<br>3. Air Force: AFCAT<br>4. Railways: RRB JE, RPF SI, RPF Constable, RRB Group D<br><br>5. TNPSC Group 4 Exams"]
+            },
+            {
+             "tag":"DiplomaCourses",
+             "patterns":["diplomas"],
+             "responses":[" you can explore various diploma courses such as<br>Diploma in Engineering:<br>  1.Diploma In Civil Engineering (DCE)<br>  2.Diploma in Mechanical Engineering (DME)<br>  3.Diploma in Electrical and Electronics Engineering (DEEE)<br>  4.Diploma in Electronics and Communication Engineering (DECE)<br>  5.Diploma in Computer Science and Engineering (DCSE)<br><br>Nursing:<br>  Diploma In Nursing (DN)<br>Other Diploma Courses:<br>  1.Diploma in Agriculture (DIA)<br>  2.Diploma in Pharmacy (DPharm)<br>  3.Diploma in Fashion Designing (DFD)<br>  4.Diploma in Multimedia and Animation (DMA)<br>  5.Diploma in Hotel Management and Catering Technology (DHMCT)<br> These courses offer specialized training in specific fields and can lead to promising career opportunities."]
+            },
+            {
+             "tag":"Failed10thGrade",
+             "patterns":["I couldn't pass my 10th grade exams","I didn't pass my 10th-grade exams.","10th fail"],
+             "responses":["Failing 10th grade isn't the end. Explore vocational courses like Electrician, Fitter, Welder, Plumber, and Mechanic at ITIs for hands-on training and job opportunities."]
+            },
+            {
+                "tag":"Post12thGrade",
+                "patterns":["I passed my 12th-grade exams. What's next?","12th grade exams completed. What now?","12th pass"],
+                "responses":["Great job! Now, are you considering joining a degree progran or preparing for government exams?"]
+            },
+            {
+             "tag":"DegreeInterest",
+             "patterns":["i interest degree program"],
+             "responses":["okay, Which group did you study in 12std?"]
+            },
+            {
+                "tag":"DegreeOptions1",
+                "patterns":["group 1"],
+                "responses":["BSc in Maths, Chemistry, or Physics, opt for BCA (Bachelor of Computer Applications), or even join engineering, depending on your interests and career aspirations."]
+            },
+            {
+                "tag":"DegreeOptions2",
+                "patterns":["group 2"],
+                "responses":["Bsc-Maths,Chemistry, Physics, Biotechnology, Microbiology, Zoology, Pharmacy depending on your interests and career aspirations"]
+            },
+            {
+                "tag":"DegreeOptions3",
+                "patterns":["group 3"],
+                "responses":["Bsc-Chemistry, Physics,depending on your interests and career aspirations"]
+            },
+            {
+                "tag":"DegreeOptions4",
+                "patterns":["group 4"],
+                "responses":["Bsc-Chemistry, Physics,Biotechnology,Microbiology,Zoology, Pharmacy depending on your interests and career aspirations"]
+            },
+            {
+                "tag":"College",
+                "patterns":["Can you recommend some colleges?","Please suggest colleges for my field of interest","Which colleges are good for [specific field]?"],
+                "responses":["Do you prefer attending an engineering college or an arts and science college?"]
+            },
+            {
+                "tag":"Collegenames1",
+                "patterns":["engineering college"],
+                "responses":["1. SRM Institute of Science and Technology 2. Bannari Amman Institute of Technology 3. Kumaraguru College of Technology 4. PSGCT Coimbatore 5. IIT Madras 6. NIT Trichy 7. Hindustan Institute of Technology and Science" ]
+            },
+            {
+                "tag":"Collegenames2",
+                "patterns":["arts and science college"],
+                "responses":["1. Madras Christian College - [MCC] 2. Loyola College, Chennai. 3. Stella Maris College 4. PSGCT Coimbatore 5. PSG College of Arts and Science  6. Kongu Arts and Science College - [KASC] 7. Hindustan College of Arts and Science - [HCAS]" ]
+            },
+            {
+                "tag":"GovernmentJobOptions",
+                "patterns":["government exams"],
+                "responses":["consider<br>1. Indian Army: AFCAT, CAPF, CDS<br>2. Navy: NDA & NA Exam<br>3. Air Force: AFCAT<br>4. Railways: RRB JE, RPF SI, RPF Constable, RRB Group D<br>5. state govt jobs<br>6. banking<br>7. TNPSC Group 4 Exams"]
+            },
+            {  
+                "tag":"Goodbye",
+                "patterns": ["thank you","thanks","okay bye"],
+                "responses": ["You're welcome!"]
+            },
+            {
+                "tag":"anything",
+                "patterns": [""],
+                "responses": ["cant understand"] 
+            }
+
+]}
